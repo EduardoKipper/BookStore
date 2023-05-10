@@ -4,27 +4,35 @@
     justify-content: space-between;
     position: relative;
 }
-
+.container__img{
+    padding: 1em;
+}
 .header__menu{
     width: 24px;
     height: 24px;
+    padding: 1.5em;
     background-image: url(../../img/mobile/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    position: relative;
+}
+.header__menu:{
+    background-image: url(../../img/mobile/BlueMenu.svg);
 }
 .container{
     display: flex;
     align-items: center;
-}
-.container__img{
-    padding: 1em;
 }
 .list-menu{
     display: none;
     position: absolute;
     top: 100%;
     width: 65vw;
+}
+.header-menu{
+    display: none;
+    position: absolute;
 }
 .container__button:checked~.list-menu{
     display: block

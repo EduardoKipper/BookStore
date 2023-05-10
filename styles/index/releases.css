@@ -1,0 +1,18 @@
+.releases__title{
+    color: var(--clr-14);
+    background-color: var(--clr-11);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
+.swiper-pagination {
+    position: initial;
+}

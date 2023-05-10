@@ -4,6 +4,7 @@
 /* index.html style inports */
 @import url(./index/header.css);
 @import url(./index/banner.css);
+@import url(./index/releases.css);
 body{
     background-color: var(--clr-9);
     color: var(--clr-1);
