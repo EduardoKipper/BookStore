@@ -17,9 +17,6 @@
     display: inline-block;
     position: relative;
 }
-.header__menu:{
-    background-image: url(../../img/mobile/BlueMenu.svg);
-}
 .container{
     display: flex;
     align-items: center;
@@ -29,10 +26,6 @@
     position: absolute;
     top: 100%;
     width: 65vw;
-}
-.header-menu{
-    display: none;
-    position: absolute;
 }
 .container__button:checked~.list-menu{
     display: block
