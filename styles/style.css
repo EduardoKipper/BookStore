@@ -4,9 +4,14 @@
 /* index.html style inports */
 @import url(./index/header.css);
 @import url(./index/banner.css);
+@import url(./index/releases.css);
+@import url(./index/card.css);
+@import url(./index/top-sellers.css);
+@import url(./index/topics.css);
 body{
     background-color: var(--clr-9);
     color: var(--clr-1);
     font-family: var(--font-1);
     font-size: 1rem;
+    line-height: 1.5rem;
 }

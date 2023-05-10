@@ -4,21 +4,22 @@
     justify-content: space-between;
     position: relative;
 }
-
+.container__img{
+    padding: 1em;
+}
 .header__menu{
     width: 24px;
     height: 24px;
+    padding: 1.5em;
     background-image: url(../../img/mobile/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    position: relative;
 }
 .container{
     display: flex;
     align-items: center;
-}
-.container__img{
-    padding: 1em;
 }
 .list-menu{
     display: none;

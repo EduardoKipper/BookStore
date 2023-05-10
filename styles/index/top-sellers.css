@@ -1,0 +1,9 @@
+.top-sellers__title {
+    color: var(--clr-14);
+    background-color: var(--clr-11);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
