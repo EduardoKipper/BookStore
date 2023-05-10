@@ -1,0 +1,12 @@
+/* utility imports */
+@import url(./utility/core.css);
+@import url(./utility/reset.css);
+/* index.html style inports */
+@import url(./index/header.css);
+@import url(./index/banner.css);
+body{
+    background-color: var(--clr-9);
+    color: var(--clr-1);
+    font-family: var(--font-1);
+    font-size: 1rem;
+}
