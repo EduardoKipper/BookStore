@@ -1,0 +1,32 @@
+.contact{
+    background: var(--clr-11);
+    color: var(--clr-16);
+    text-align: center;
+    padding: 1.5em;
+}
+.contact__title{
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-align: left;
+}
+.contact__text{
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0.5em 0 1.5em 0;
+    text-align: left;
+}
+.contact__mail{
+    border: 1px solid var(--clr-16);
+    border-radius: 1.5em;
+    padding: 0.8em;
+    width: 80vw;
+}
+.contact__mail::placeholder{
+    font-family: var(--font-1);
+    font-size: 0.875rem;
+    color: var(--clr-17);
+    font-weight: 500;
+    padding-left: 3.5em;
+    background: url(../../img/mobile/Mail.svg) no-repeat;
+    background-position: 1.2em; 
+}

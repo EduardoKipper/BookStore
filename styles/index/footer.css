@@ -1,0 +1,30 @@
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: var(--clr-10);
+    border-top: 1px solid var(--clr-1);
+}
+.footer__logo{
+    width: 5em;
+    border: 0.5em solid var(--clr-11);
+}
+.footer__list{
+    justify-content: center;
+    list-style-type: none;
+    gap: 1em;
+    margin: 1.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__links{
+    color: var(--clr-1);
+    text-decoration: none;
+}
+.footer__links:active{
+    color: var(--clr-14);
+    transition: 0.1s;
+}
+.footer__text{
+    color: var(--clr-18);
+    margin-bottom: 1em;
+}
