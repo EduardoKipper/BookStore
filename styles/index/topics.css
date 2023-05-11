@@ -19,8 +19,28 @@
     background-color: var(--clr-14);
     padding: 1em 1.5em;
     margin: 0.5em;
+    font-weight: 700;
 }
 .topics__anchor{
     color: var(--clr-11);
     text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+    .topics{
+        padding: 1em;
+    }
+    .topics__title{
+        font-size: 1.5rem;
+    }
+    .topics__item{
+        padding: 1.5em 2.25em;
+    }
+    .topics__anchor{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:1728px) {
+    .topics{
+        padding: 3em 30vw;
+    }
 }
