@@ -49,3 +49,20 @@
     font-weight: 700;
     text-decoration: none;
 }
+@media screen and (min-width: 1024px) {
+    .card{
+        width: 40%;
+        margin: 3em auto;
+    }
+}
+@media screen and (min-width:1728px) {
+    .card{
+        width: 60%;
+        margin: auto 5em;
+        padding: 2em;
+    }
+    .description__title{
+        font-size: 2rem;
+    }
+
+}
