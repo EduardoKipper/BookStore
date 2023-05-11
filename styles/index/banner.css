@@ -14,20 +14,15 @@
     padding: 1em 0 1.5em 0;
 }
 .banner__search{
-    font-size: 0.875rem;
-    font-weight: 400;
     border: 1px solid var(--clr-11);
-    color: var(--clr-11);
     border-radius: 1.5em;
     padding: 0.8em;
     width: 100%;
-    
-    /* text-align: center; */
 }
 .banner__search::placeholder{
     font-family: var(--font-1);
     font-size: 0.875rem;
-    font-weight: 400;
+    font-weight: 500;
     padding-left: 2em;
     text-align: center;
     color: var(--clr-11);
