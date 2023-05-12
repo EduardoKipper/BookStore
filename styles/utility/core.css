@@ -1,0 +1,24 @@
+:root{
+    --clr-1: #000000;
+    --clr-2: #181818;
+    --clr-3: #232323;
+    --clr-4: #343434;
+    --clr-5: #474646    ;
+    --clr-6: #676767;
+    --clr-7: #858585;
+    --clr-8: #C4C4C4;
+    --clr-9: #EBECEE;
+    --clr-10: #F9F9F9;
+    --clr-11: #FFFFFF;
+    --clr-12: #FC6621;
+    --clr-13: #FD8325;
+    --clr-14: #EB9B00;
+    --clr-15: #FECD2F;
+    --clr-16: #002F52;
+    --clr-17: #204B6B;
+    --clr-18: #2F6E9E;
+    --clr-19: #0085EB;
+    --fade-1:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-1: "Poppins";
+    --font-2: "Josefin Sans";
+}
