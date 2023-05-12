@@ -5,9 +5,8 @@
 /* index.html style inports */
 @import url(./index/header.css);
 @import url(./index/banner.css);
-@import url(./index/releases.css);
+@import url(./index/sections.css);
 @import url(./index/card.css);
-@import url(./index/top-sellers.css);
 @import url(./index/topics.css);
 @import url(./index/contact.css);
 @import url(./index/footer.css);
@@ -17,4 +16,8 @@ body{
     font-family: var(--font-1);
     font-size: 1rem;
     line-height: 1.5rem;
+}
+.click__active:active{
+    transform: scale(90%);
+    transition: 10ms;
 }

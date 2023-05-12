@@ -1,3 +1,4 @@
+/* Swiper */
 .releases__title {
     color: var(--clr-14);
     background-color: var(--clr-11);
@@ -7,11 +8,14 @@
     font-size: 1.125rem;
     font-weight: 700;
 }
-.releases__text{
-    color: var(--clr-18);
-    background-color: var(--clr-10);
-    text-align: center;
-    padding: 1em 0.5em 0.5em 0.5em;
-    font-size: 0.875rem;
-    font-weight: 500;
+.swiper-slide img {
+    width: 100%;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
+.swiper-pagination {
+    position: initial;
+    margin: 0.75em 1em;
 }

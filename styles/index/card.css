@@ -49,3 +49,44 @@
     font-weight: 700;
     text-decoration: none;
 }
+.like__img{
+    width: 24px;
+    padding:1.5em;
+    background-image: url(../../img/mobile/Like.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container__button:checked~.like__label>.like__img{
+    background: url(../../img/mobile/PosLike.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cart__img{
+    width: 24px;
+    padding:1.5em;
+    background-image: url(../../img/mobile/Cart.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container__button:checked~.cart__label>.cart__img{
+    background: url(../../img/mobile/PosCart.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (min-width: 1024px) {
+    .card{
+        width: 40%;
+        margin: 3em auto;
+    }
+}
+@media screen and (min-width:1728px) {
+    .card{
+        width: 60%;
+        margin: auto 5em;
+        padding: 2em;
+    }
+    .description__title{
+        font-size: 2rem;
+    }
+
+}

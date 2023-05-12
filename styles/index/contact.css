@@ -4,22 +4,23 @@
     text-align: center;
     padding: 1.5em;
 }
+.contact__description{
+    text-align: left;
+}
 .contact__title{
     font-weight: 500;
     font-size: 1.125rem;
-    text-align: left;
 }
 .contact__text{
     font-weight: 300;
     font-size: 1rem;
     padding: 0.5em 0 1.5em 0;
-    text-align: left;
 }
 .contact__mail{
     border: 1px solid var(--clr-16);
     border-radius: 1.5em;
     padding: 0.8em;
-    width: 80vw;
+    width: 90%;
 }
 .contact__mail::placeholder{
     font-family: var(--font-1);
@@ -29,4 +30,36 @@
     padding-left: 3.5em;
     background: url(../../img/mobile/Mail.svg) no-repeat;
     background-position: 1.2em; 
+}
+.contact__mail:focus::placeholder{
+    background: transparent;
+    padding-left: 0;
+    margin-right: 100%;
+    transition: 1s;
+}
+@media screen and (min-width: 1024px) {
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5em 2.5em;
+    }
+    .contact__description{
+        margin-right: 5em;
+        width: 35%;
+    }
+    .contact__title{
+        font-size: 1.5rem;
+    }
+    .contact__text{
+        font-size: 1rem;
+    }
+    .contact__mail{
+        width: 30%;
+    }
+}
+@media screen and (min-width:1728px) {
+    .contact{
+        padding: 3em 20vw;
+    }
 }
