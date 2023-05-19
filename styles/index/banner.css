@@ -31,10 +31,16 @@
 }
 .banner__search:focus::placeholder{
     background: transparent;
+    color: var(--clr-1);
     padding-left: 0;
     margin-right: 100%;
     transition: 1.5s;
 }
+.banner__search:focus{
+    background-color: var(--clr-11);
+    transition: 2s;
+}
+
 @media screen and (min-width: 1024px) {
     .banner__title{
         font-size: 2.25rem;
